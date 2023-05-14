@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+html , body{
+    margin: 0;
+    padding:0;
+    padding-bottom: 200px;
+}
+section{
+    padding: 0 16px;
+}
+.main-header {
+    height: 64px;
+    background-color: rgb(131, 10, 131);
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.main-header-title{
+    color: white;
+    font-size: 24px;
+}
+.hero{
+    margin-top: 30px;
+    text-align: center;
+}
+.hero-image{
+    width: 150px;
+    height: 150px;
+}
+.information{
+    text-align: center;
+}
+.information .skills li{
+    display: inline;
+}
+.projects{
+    text-align: center;
+    margin-top: 30px;
+}
+.projects .project-item{
+    border: 1px solid #dcdcdc;
+    width: 150px;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    
+}
+projects .project-item h3{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
+footer a{
+    
+    margin-right: 16px;
+}
+footer a:last-child{
+    margin-right: 0;
+}

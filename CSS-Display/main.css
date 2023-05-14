@@ -1,0 +1,10 @@
+.main-section {
+    border:1px solid #333;
+    margin-bottom: 16px;
+}
+.main-section.first div{
+    /*visibility: hidden;*/
+    display: none;
+ 
+
+}
